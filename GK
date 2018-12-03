@@ -1,0 +1,178 @@
+<?php
+/*$kolory=array('czerwony','zielony','czarny');
+//$i=0;
+//while(isset($kolory[$i]))
+//{
+//echo $kolory[$i]," ";
+//$i++;
+//}
+//$kolory = array('czerwony','zielony','czarny');
+//foreach($kolory as $kolor)
+//{
+//echo $kolor," " ;
+//}
+//$waga=array('Janek' => '69kg','Marta' => '56kg','Stefan' => '63kg');
+//foreach($waga as $wartosc)
+//{
+//echo $wartosc," ";
+//
+//}
+$a=true;
+$b=false;
+if($a==true)
+{
+echo("A jest True<br>");
+}
+$a=!$a;
+if($a==false)
+{
+echo("A teraz A jest False<br>");
+}
+if($a==false and $b==false)
+{echo("Obie zmienne sa False<br>");
+}
+if ($a==false or $b==false)
+{
+echo("Prznajmniej jedna ze zmiennych jest False<br>");
+}
+$imie="Damian";
+$nazwisko=" Daszkiewicz";
+echo("Imie:"); echo($imie);
+echo("<br> Nazwisko: "); echo($nazwisko);
+$metryka=$imie.$nazwisko; echo("<br>Metryka: ");
+echo($metryka);
+$X=1;
+$nazwa_1="teskt"
+$liczba7=345;
+$ilosc=4;
+echo"Wynik wynosi $x <br/>";
+echo"To jest $nazwa_1<br/>";
+echo"$liczba7<br/>";
+echo"Bieżąca wartość to $ilość";
+
+echo'To jest symbol apostropu\' uzyty w PHP';
+$napis="napis";
+$tekst=<<<TX
+Tutaj rozpoczyna sie $napis
+TX;
+echo $tekst;
+
+$napis="napis";
+$tekst=<<<'PC'
+tutaj rozpoczyna sie napis;
+
+$ks=array("Dzuma", "Potop", "Obcy");
+echo $ks[1];
+
+$im[0]="Jan";
+$im[1]="Paweł";
+$im[2]="Michał";
+echo $im[2];	
+
+$tab[]=1;
+$tab[]=2;
+$tab[]=3;
+echo $tab[2];
+
+//$osoba=array("nazwisko"=>"Kowalski","imie"=>"Jan","wiek"=>27);
+//echo $osoba["nazwisko"];
+//$osoba["nazwisko"]="Kowalski";
+//$osoba["imię"]="Jan";
+//$dane=array(array("nazwisko"=>"Kowalski","imię"=>"Jan", "wiek"=> 27),array("nazwisko"=>"Nowak","imię"=>"Paweł","wiek"=> 24),array("nazwisko" =>"Górka", "imie"=>"Tomasz","wiek"=> 29));
+//echo $dane[2]["imie"];
+x=23.75;
+$y=(integer) $x;
+echo"$x<br/>";
+echo"$y";
+$x=97.234;
+echo"Wartość zmiennej \$x: $x<br/>";
+settype($x, 'string');
+echo"Wartość zmiennej \$x: $x <br\>";
+settype($x, 'integer');
+echo"Wartość zmiennej \$x: $x ,br\>";
+$osoba["nazwisko"] ="Kowalski";
+$osoba["imię"] = "Jan";
+$osoba["wiek"] = 27;
+echo $osoba["nazwisko"]."".$osoba["imię"]." ma ".$osoba["wiek"]." lat. ";
+$x =7;
+echo $x++; echo "<br/>";
+echo ++$x; echo "<br/>";
+$v=$x;
+$t=$x++;
+$z=$x;
+$y=++$x;
+echo"Wartość zmiennej \$v = $v <br/>";
+echo"Wartość zmiennej \$t = $t <br/>";
+echo"Wartość zmiennej \$z = $z <br/>";
+echo"Wartość zmiennej \$y = $y <br/>";
+
+ $kolor="red";
+ switch($kolor)
+ {
+	 case"red":
+	 echo"Dominującym kolorem jest czerwony!";
+	 break;
+	case"blue":
+	echo"Dominująctm kolorem jest niebieski!";
+	break;
+	case"green":
+	echo"Dominującym kolorem jest zielony!";
+	break;
+	default:
+	echo"Brak dominującego koloru!;
+ }
+$x=11;
+$wynik=($x<0)?"ujemna":"dodatnia";
+echo"Wartość zmiennej x jest $wynik.";	
+
+$i=1;
+ for($i;$i<6;$i++)
+ {
+ echo"i=$i<br/>";
+ }
+ $i=0;
+ while($i<5)
+ {
+$i++;
+echo"Petla wykonała sie $i razy.<br/>";
+ }	
+
+$i=1;
+do
+{
+echo"Pętla wykonała sie $i razy<br/>";
+$i++;
+}
+while($i<1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000);
+
+$tab=array(1=>'biały',2=>'czarny',3=>'niebieski',4=>'zielony');
+foreach($tab as $kl=>$x){
+echo"tab[$kl]=$x<br/>";	
+
+$i=0;
+while(true){
+	echo("Wypisz $i <br>");
+	if($i>=20)break;
+	$i++;
+}	
+for($i=0;$i<=30;$i++){
+if(($i%3)!=0)
+	continue;
+echo"$i;";
+}
+*/
+$i=0;
+$o=10;
+while($i<=10)
+{
+	echo("$i ");
+	$i++;
+}
+echo("<br>");
+do
+{
+	echo("$o ");
+	$o--;
+}
+while($o>=0);
+?>
